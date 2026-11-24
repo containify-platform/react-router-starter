@@ -1,5 +1,7 @@
 # React Router starter
 
+[![Deploy on Containify](https://containify.cloud/deploy-button.svg)](https://containify.cloud/templates/react-router)
+
 A minimal [React Router](https://reactrouter.com/) app in framework mode (the successor to Remix),
 server-rendered with `react-router-serve`, with Postgres, ready to deploy on
 [Containify](https://containify.cloud).
@@ -25,6 +27,10 @@ Open http://localhost:5173.
 
 ## Deploy on Containify
 
+[![Deploy on Containify](https://containify.cloud/deploy-button.svg)](https://containify.cloud/templates/react-router)
+
+One click deploys it on [Containify](https://containify.cloud). The [template page](https://containify.cloud/templates/react-router) shows what it creates, and passwords, connection strings and the HTTPS address are filled in for you.
+
 Deploy the **React Router starter** template from the Containify catalogue. It adds this app,
 built from its Dockerfile, and a private Postgres database, with `DATABASE_URL` already set and
 `node scripts/migrate.mjs` as the pre-deploy command, so migrations run before each release
@@ -40,3 +46,7 @@ and IPv4; the Dockerfile sets `PORT=3000`, the port the endpoint points at.
 ## License
 
 MIT
+
+---
+
+Made by [Containify](https://containify.cloud): deploy apps, databases and workers from a Git repo or an image, with per-second billing. [Docs](https://containify.cloud/docs) · [Templates](https://containify.cloud/templates)
